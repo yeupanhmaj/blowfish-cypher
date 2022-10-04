@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="blowfish.cpp" />
     <ClCompile Include="main-app.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="blowfish.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

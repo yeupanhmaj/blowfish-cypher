@@ -18,5 +18,13 @@
     <ClCompile Include="main-app.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="blowfish.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="blowfish.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
